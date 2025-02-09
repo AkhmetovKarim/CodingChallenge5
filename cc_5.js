@@ -66,3 +66,15 @@ const totalAmount = 500;
 const taxRate = 0.17;
 const tax = calculateTax(totalAmount, taxRate);
 console.log(`Sales Tax: $${tax}`); //log
+
+//Task 9 - Discount Application
+
+const price = 1000;
+const discount = 0.15;
+
+const applyDiscount = function(price, discount) {
+    return price * (1- discount);
+};
+const discountedPrice = applyDiscount(price, discount);
+console.log(`Discounted Price: $${discountedPrice}`);
+
