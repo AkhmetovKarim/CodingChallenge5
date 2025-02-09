@@ -27,3 +27,12 @@ let order = {
     }
 };
 order.displayOrder();
+
+//Task 3 - Shopping Cart
+
+let cartItems = ["Jägermeister", "Svedka", "Smirnoff"];//Declare an array
+cartItems.push("Four Loko"); // Add a new product
+cartItems.pop();             // remove last item
+cartItems.unshift("Hennessy"); //Add an item in the beginning
+cartItems.shift();             //remove first item
+console.log(cartItems);      //log final array
