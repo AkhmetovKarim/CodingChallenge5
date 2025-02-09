@@ -78,3 +78,9 @@ const applyDiscount = function(price, discount) {
 const discountedPrice = applyDiscount(price, discount);
 console.log(`Discounted Price: $${discountedPrice}`);
 
+//Task 10 - Loyaly Points
+const calculatePoints = purchaseAmount => purchaseAmount / 10; //write arrow function
+const purchase = 4000;
+const points = calculatePoints(purchase);
+console.log(`Loyalty Points Received: ${points}`); //log
+
