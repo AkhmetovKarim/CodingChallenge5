@@ -57,3 +57,12 @@ console.log(`Total Revenue: $${totalRevenue}`); //log
 let customers = ["Alice", "Bob", "Charlie", "Davud"]; //declare an array
 let findCustomer = customers.find(customer => customer === "Charlie"); //find charlier with find()
 console.log(`Found Customer: ${findCustomer}`); //Log
+
+//Task 8 - Tax Calculation
+function calculateTax(amount, taxrate) { //write a function
+    return amount * taxrate;
+}
+const totalAmount = 500;
+const taxRate = 0.17;
+const tax = calculateTax(totalAmount, taxRate);
+console.log(`Sales Tax: $${tax}`); //log
