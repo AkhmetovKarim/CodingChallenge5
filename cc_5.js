@@ -36,3 +36,9 @@ cartItems.pop();             // remove last item
 cartItems.unshift("Hennessy"); //Add an item in the beginning
 cartItems.shift();             //remove first item
 console.log(cartItems);      //log final array
+
+//Task 4 - Price Adjustments
+
+let prices = [100, 200, 300]; //Declare an array
+let discountedPrices = prices.map(price => price * 0.9); //Apply 10% discount using map()
+console.log(discountedPrices); //Log
