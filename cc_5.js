@@ -42,3 +42,8 @@ console.log(cartItems);      //log final array
 let prices = [100, 200, 300]; //Declare an array
 let discountedPrices = prices.map(price => price * 0.9); //Apply 10% discount using map()
 console.log(discountedPrices); //Log
+
+//Task 5: Product Availability
+let inventory = [5, 0, 12, 8, 0] //Declare an array
+let availableProducts = inventory.filter(quantity => quantity >0); //Use filder() method
+console.log(availableProducts);     //Log 
