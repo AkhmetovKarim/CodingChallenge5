@@ -47,3 +47,8 @@ console.log(discountedPrices); //Log
 let inventory = [5, 0, 12, 8, 0] //Declare an array
 let availableProducts = inventory.filter(quantity => quantity >0); //Use filder() method
 console.log(availableProducts);     //Log 
+
+//Task 6: Revenue Calculation
+let sales = [500, 300, 200, 400]; //Declare an array
+let totalRevenue = sales.reduce((sum, price) => sum + price, 0); // calculate total revenue
+console.log(`Total Revenue: $${totalRevenue}`); //log
